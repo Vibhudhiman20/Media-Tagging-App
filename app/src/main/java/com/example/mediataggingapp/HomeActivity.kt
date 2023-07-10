@@ -62,7 +62,7 @@ class HomeActivity : ComponentActivity() {
                         BottomNav()
                     }
                 }
-                /*Column(
+                Column(
                     modifier = Modifier.fillMaxSize(),
                     verticalArrangement = Arrangement.Top,
                     horizontalAlignment = Alignment.CenterHorizontally,
@@ -89,7 +89,7 @@ class HomeActivity : ComponentActivity() {
                     }
 
                 }
-*/            }
+            }
         }
     }
 }
