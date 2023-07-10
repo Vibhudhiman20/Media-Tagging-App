@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "78805013422",
+    "project_id": "media-tagging-app-cbf1d",
+    "storage_bucket": "media-tagging-app-cbf1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78805013422:android:b28bdf78b0f62781eaee3f",
+        "android_client_info": {
+          "package_name": "com.example.mediataggingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78805013422-p5et87mjfjjrjs44pk19eq8i7r9uhkhf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mediataggingapp",
+            "certificate_hash": "02fe1bebd55c1d6eff9b783f8fba3322656de2b3"
+          }
+        },
+        {
+          "client_id": "78805013422-s54gb7qrn8d1p0atkiccrtjp2gj3qgtt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1kFgh5yszOThS4u_CspJ-SRgFRwnoZks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78805013422-a13t0k6v5kgbvbcslfuhfovvlmb2bh20.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
