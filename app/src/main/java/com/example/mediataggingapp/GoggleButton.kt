@@ -12,12 +12,12 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.Icon
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
+import androidx.compose.material.CircularProgressIndicator
+import androidx.compose.material.ExperimentalMaterialApi
+import androidx.compose.material.Icon
+import androidx.compose.material.MaterialTheme
+import androidx.compose.material.Surface
+import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -33,7 +33,7 @@ import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 
-@OptIn(ExperimentalMaterial3Api::class)
+@OptIn(ExperimentalMaterialApi::class)
 @Composable
 fun GoogleButton(
     text: String = "Sign Up with Google",
@@ -50,7 +50,7 @@ fun GoogleButton(
             onClick = { clicked = !clicked },
             shape = shape,
             border = BorderStroke(width = 1.dp, color = borderColor ),
-            color = MaterialTheme.colorScheme.surface,
+            color = MaterialTheme.colors.surface,
         ) {
             Row(
                 modifier = Modifier
@@ -82,7 +82,7 @@ fun GoogleButton(
                             .height(16.dp)
                             .width(16.dp),
                         strokeWidth = 2.dp,
-                        color = MaterialTheme.colorScheme.primary
+                        color = MaterialTheme.colors.primary
                     )
                     onClicked( )
                 }

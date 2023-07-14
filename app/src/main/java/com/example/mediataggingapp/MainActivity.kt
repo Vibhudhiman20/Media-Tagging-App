@@ -62,13 +62,6 @@ class MainActivity : ComponentActivity() {
 
         googleSignInClient = GoogleSignIn.getClient(this, gso)
 
-
-        /*  auth = Firebase.auth
-
-          googleSignInClient = GoogleSignIn.getClient(this, gso)*/
-
-//        getGoogleSignInClient(this)
-
         setContent {
             MediaTaggingAppTheme {
                 Column(
